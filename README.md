@@ -5,9 +5,9 @@ esse é um projeto de extensão universitária onde eu criei um site apresentati
 ## estrutura:
 
 lizard/
-│
-├── index.html
-├── style.css
+├── index.html   
+├── style.css    
+└── README.md   
 └── images/
   ├── banda.jpg
   └── show.jpg
