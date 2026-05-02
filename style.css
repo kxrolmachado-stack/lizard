@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+}
+
+.navbar {
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #111;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 6px;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.band-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 2px solid #fff;
+}
+
+.hero h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #888;
+  font-weight: 300;
+}
+
+.section {
+  padding: 4rem 1.5rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.section p {
+  margin-bottom: 1.2rem;
+  color: #aaa;
+  font-weight: 300;
+}
+
+.band-list {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #0a0a0a;
+  border-radius: 12px;
+}
+
+.band-list li {
+  list-style: none;
+  margin: 0.5rem 0;
+  color: #ccc;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.show-photo {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem 0;
+  border: 1px solid #222;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #111;
+  font-size: 0.8rem;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+
+.show-photo {
+  width: 100%;
+  max-width: 750px;
+  margin: 2.5rem auto;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #222;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  transition: 0.4s ease;
+}
+
+.show-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 60px rgba(0,0,0,0.8);
+}
+  .band-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+}
